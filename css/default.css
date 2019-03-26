@@ -1,3 +1,4 @@
 .landing-jumbo {
-  min-height: calc(100vh - 19vh)
+  min-height: 100%;
+  min-height: calc(100vh - 184px);
 }
