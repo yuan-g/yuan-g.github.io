@@ -33,3 +33,24 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+@media (max-width: 1000px) {
+    .display-3 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 587px) {
+    .display-3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .landing-jumbo {
+        min-height: calc(100vh - 119px);
+    }
+    .jumbo {
+        min-height: calc(100vh - 88px);
+    }
+}
