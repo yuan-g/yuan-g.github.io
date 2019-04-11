@@ -65,9 +65,6 @@ html {
     .split-color {
         background: #e9ecef;
     }
-    .foldonly-jumbo {
-        min-height: 83vh;
-    }
 }
 
 @media (max-width: 587px) {
