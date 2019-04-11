@@ -3,6 +3,10 @@ html {
     overflow-x: hidden;
 }
 
+a, a:active, a:focus {
+	outline: none;
+}
+
 .landing-jumbo {
     min-height: 100%;
     min-height: calc(100vh - 184px);
@@ -52,6 +56,19 @@ html {
     #ffffff 50%,
     #ffffff 100%
   );
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.dropdown-item {
+    color: white;
+}
+.dropdown-item:active {
+    background-color: transparent;
 }
 
 @media (max-width: 991px) {
