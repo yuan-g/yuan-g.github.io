@@ -66,8 +66,7 @@ html {
         background: #e9ecef;
     }
     .foldonly-jumbo {
-        padding-top: 30px;
-        padding-bottom: 40px;
+        min-height: 83vh;
     }
 }
 
