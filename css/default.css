@@ -13,7 +13,7 @@ html {
     min-height: calc(100vh - 152px);
 }
 
-.foldonly-jumbo {
+.nofold-jumbo {
     min-height: 100%;
     min-height: calc(100vh - 208px);
 }
@@ -65,6 +65,7 @@ html {
     .split-color {
         background: #e9ecef;
     }
+    .
 }
 
 @media (max-width: 587px) {
@@ -80,5 +81,8 @@ html {
     }
     .jumbo {
         min-height: calc(100vh - 88px);
+    }
+    .nofold-jumbo {
+        min-height: calc(100vh - 144px);
     }
 }
