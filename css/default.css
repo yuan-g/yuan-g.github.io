@@ -1,14 +1,21 @@
-.landing-jumbo {
-    min-height: 100%;
-    min-height: calc(100vh - 184px);
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
 
-    font-family: 'Playfair Display', serif;
+.landing-jumbo {
+    min-height: calc(100vh - 184px);
 }
 
 .jumbo {
-    min-height: 100%;
     min-height: calc(100vh - 152px);
+}
 
+.foldonly-jumbo {
+    min-height: calc(100vh - 208px);
+}
+
+.display-3 {
     font-family: 'Playfair Display', serif;
 }
 
@@ -34,6 +41,16 @@
     margin-bottom: auto;
 }
 
+.split-color {
+  background: linear-gradient(
+    to left,
+    #e9ecef 0%,
+    #e9ecef 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+}
+
 @media (max-width: 991px) {
     .display-3 {
         font-size: 3rem;
@@ -41,6 +58,13 @@
     .vl {
         height: 100px;
         margin-top: calc(100vh - 50px);
+    }
+    .split-color {
+        background: #e9ecef;
+    }
+    .foldonly-jumbo {
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
 }
 
