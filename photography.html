@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js" integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
@@ -80,27 +78,81 @@
             </h1>
           </div>
           <div class="col-md-9 my-auto">
-            <div class="row">
-              <a href="https://www.ramonlin.com/images/taiwan1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+            <div class="row mb-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan1" class="col-sm-4">
                 <img src="images/taiwan1-s.jpg" class="img-fluid">
               </a>
-              <a href="https://www.ramonlin.com/images/taiwan2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan2" class="col-sm-4">
                 <img src="images/taiwan2-s.jpg" class="img-fluid">
               </a>
-              <a href="https://www.ramonlin.com/images/taiwan3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan3" class="col-sm-4">
                 <img src="images/taiwan3-s.jpg" class="img-fluid">
               </a>
             </div>
             <div class="row">
-              <a href="https://www.ramonlin.com/images/taiwan4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan4" class="col-sm-4">
                 <img src="images/taiwan4-s.jpg" class="img-fluid">
               </a>
-              <a href="https://www.ramonlin.com/images/taiwan5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan5" class="col-sm-4">
                 <img src="images/taiwan5-s.jpg" class="img-fluid">
               </a>
-              <a href="https://www.ramonlin.com/images/taiwan6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+              <a href="#" data-toggle="modal" data-target="#taiwan6" class="col-sm-4">
                 <img src="images/taiwan6-s.jpg" class="img-fluid">
               </a>
+            </div>
+            <div class="modal fade" id="taiwan1" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan1.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="taiwan2" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan2.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="taiwan3" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan3.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="taiwan4" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan4.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="taiwan5" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan5.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="taiwan6" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                  <div class="modal-body text-center">
+                    <img src="images/taiwan6.jpg">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -124,13 +176,6 @@
         </div>
       </footer>
     </div>
-    <script>
-      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                  event.preventDefault();
-                  $(this).ekkoLightbox();
-                });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
